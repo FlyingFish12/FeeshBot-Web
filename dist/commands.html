@@ -31,22 +31,6 @@
         </svg>
     </div>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <script>
-        var coll = document.getElementsByClassName("FunCommandsBox");
-        var i;
-
-        for (i = 0; i < coll.length; i++) {
-            coll[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var content = this.nextElementSibling;
-                if (content.style.maxHeight) {
-                    content.style.maxHeight = null;
-                } else {
-                    content.style.maxHeight = content.scrollHeight + "px";
-                }
-            });
-        }
-    </script>
     <div class="FunCommandsBox">
         <div class="CommandsBoxT">Fun Commands</div>
         <div class="Content">
@@ -62,8 +46,10 @@
             </div>
         </div>
     </div>
+    
     <br><br><br><br><br>
     <div class="footer">
-        <div class="footerText">oh look, a footer</div>
+        <div class="footerTextL"><img src="FeeshIcon.jpg"><br>I Have No Copyright © 2021</div>
+        <div class="footerTextR">Useful Links<br><a class="links" href="commands.html">Commands</a><br><a class="links" href="about.html">About</a><br><a class="links" href="https://discord.com/oauth2/authorize?client_id=735918313921708053&permissions=268823799&scope=bot">Invite Feesh</a></div>
     </div>
 </body></html>
