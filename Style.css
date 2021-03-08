@@ -217,3 +217,17 @@ html, body {
     color: ghostwhite;
     font-size: 2rem;
 }
+
+.fLinks {
+    color: #DA005A;
+    font-size: 1.5rem;
+    font-weight: 700;
+    height: inherit;
+    line-height: inherit;
+    padding: 0 1.25rem;
+    text-decoration: none;
+    float: right;
+    background-color: #242424;
+    border-radius: 15px;
+    margin-right: 5px;
+}
