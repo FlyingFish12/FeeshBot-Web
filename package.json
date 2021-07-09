@@ -6,7 +6,7 @@
   "scripts": {
     "deploy": "gh-pages -d dist"
   },
-  "keywords": [],
+  "keywords": ["Feesh", "Discord", "Discord bot", "Feesh bot", "Flyingfish12"],
   "author": "",
   "license": "ISC",
   "homepage": "https://feesh.studio",
