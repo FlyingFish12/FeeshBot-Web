@@ -1,6 +1,6 @@
 {
   "name": "feeshweb",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A website for FeeshBot.",
   "main": "index.html",
   "scripts": {
@@ -11,6 +11,7 @@
   "license": "ISC",
   "homepage": "https://feesh.studio",
   "dependencies": {
-    "gh-pages": "^3.1.0"
+    "gh-pages": "^3.1.0",
+    "tailwindcss": "^2.2.4"
   }
 }
